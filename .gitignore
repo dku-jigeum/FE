@@ -1,10 +1,14 @@
+# deps / build
 node_modules/
 dist/
+.vite/
+
+# env (secrets)
 .env.local
 .env*.local
 *.local
 
-# Editor
+# editor
 .vscode/
 .idea/
 *.swp
@@ -12,3 +16,4 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+*.log
